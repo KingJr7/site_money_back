@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kingjr7.github.io/site_money_back/sitemap.xml

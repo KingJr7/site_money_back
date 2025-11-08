@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Money Back - Gérez vos finances hors ligne</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+        .neubrutalist-shadow {
+            box-shadow: 4px 4px 0px 0px #000;
+        }
+        .neubrutalist-shadow-hover:hover {
+            box-shadow: 2px 2px 0px 0px #000;
+            transform: translate(2px, 2px);
+        }
+        .neubrutalist-shadow-container {
+            box-shadow: 8px 8px 0px 0px #000;
+        }
+    </style>
+<script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#000000",
+              "background-light": "#FFFFFF",
+            },
+            fontFamily: {
+              "display": ["Space Grotesk", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0rem", "lg": "0rem", "xl": "0rem", "full": "0rem"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="font-display bg-background-light text-primary">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<!-- Header -->
+<header class="w-full bg-background-light border-b-2 border-primary">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-10 lg:px-20">
+<div class="flex items-center justify-between py-4">
+<a class="text-xl font-bold flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-3xl">
+                                savings
+                            </span>
+<span>Money Back</span>
+</a>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-base font-medium hover:underline" href="#features">Fonctionnalités</a>
+<a class="text-base font-medium hover:underline" href="#faq">FAQ</a>
+<a class="text-base font-medium hover:underline" href="#">Contact</a>
+</nav>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<!-- HeroSection -->
+<main class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-10 lg:px-20 flex flex-1 justify-center py-10 md:py-20">
+<div class="layout-content-container flex flex-col max-w-7xl flex-1">
+<div class=" @container">
+<div class="flex flex-col gap-10 @[864px]:flex-row @[864px]:items-center">
+<div class="flex flex-col gap-6 @[480px]:gap-8 @[864px]:w-1/2">
+<div class="flex flex-col gap-4 text-left">
+<h1 class="text-primary text-5xl font-bold leading-tight tracking-tighter @[480px]:text-6xl @[480px]:font-bold @[480px]:leading-tight">
+                                        Vos finances, votre appareil. Entièrement hors ligne.
+                                    </h1>
+<h2 class="text-primary text-lg font-normal leading-normal @[480px]:text-xl">
+                                        Une application de gestion financière sécurisée et privée qui ne se connecte jamais à Internet. Vos données restent avec vous, pour toujours.
+                                    </h2>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="flex w-full sm:w-auto cursor-pointer items-center justify-center overflow-hidden h-12 px-6 bg-primary text-white text-base font-bold leading-normal border-2 border-primary neubrutalist-shadow neubrutalist-shadow-hover transition-all">
+<span class="truncate">Télécharger pour Android</span>
+</button>
+</div>
+</div>
+<div class="w-full @[864px]:w-1/2 bg-center bg-no-repeat aspect-square bg-cover border-2 border-primary neubrutalist-shadow-container" data-alt="Motif géométrique abstrait en noir et blanc" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAv__HhNmvkEeLlcMSG3XRjqAD-GMb00yVZ8st25Dc9Qc6aHUvh4dyfeXCNfZXRgK6qxRxDJACYklzO9L4wSuDXQPV8oEOjRnIW990nYTla7nNw_P_vuhOGphiYcTXtTvGFZAfm0oB4Lll0g9NnrYaVOXc3Ij4PPbS2Oien9cPcQhbhRRSfO4UfZti4PJ2ZRkUK7ZHNATBZsfXx8xUQmutfk4z4rhlT4Gc52n3Ttf1saD_4m3ZycJvwuH4O1Lilr_ONP7SRJbNyxt0t");'></div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- FeatureSection -->
+<section class="bg-background-light py-10 md:py-20" id="features">
+<div class="px-4 md:px-10 lg:px-20 flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-7xl flex-1">
+<div class="flex flex-col gap-10 px-4 py-10 border-2 border-primary neubrutalist-shadow-container">
+<div class="flex flex-col gap-4">
+<h1 class="text-primary text-4xl font-bold leading-tight tracking-tighter @[480px]:text-5xl max-w-3xl">
+                                Contrôle total, zéro compromis
+                            </h1>
+<p class="text-primary text-lg font-normal leading-normal max-w-3xl">
+                                Gérez votre argent en toute confiance, sachant que vos données restent avec vous et uniquement vous. Pas de cloud, pas de serveurs, pas d'abonnements.
+                            </p>
+</div>
+<div class="grid grid-cols-1 gap-6 p-0 @[480px]:grid-cols-2">
+<div class="flex flex-1 flex-col gap-3 border-2 border-primary bg-background-light p-6 neubrutalist-shadow">
+<span class="material-symbols-outlined text-4xl">lock</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-primary text-xl font-bold leading-tight">Hors ligne &amp; Privé</h2>
+<p class="text-primary text-base font-normal leading-normal">Toutes vos données financières sont stockées localement sur votre appareil. Nous ne les voyons jamais.</p>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-3 border-2 border-primary bg-background-light p-6 neubrutalist-shadow">
+<span class="material-symbols-outlined text-4xl">monitoring</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-primary text-xl font-bold leading-tight">Suivez tout</h2>
+<p class="text-primary text-base font-normal leading-normal">Enregistrez vos dépenses, suivez vos revenus et créez des budgets pour maîtriser vos dépenses.</p>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-3 border-2 border-primary bg-background-light p-6 neubrutalist-shadow">
+<span class="material-symbols-outlined text-4xl">account_balance_wallet</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-primary text-xl font-bold leading-tight">Gérez les portefeuilles</h2>
+<p class="text-primary text-base font-normal leading-normal">Gérez plusieurs comptes courants, d'épargne et d'investissement en un seul endroit.</p>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-3 border-2 border-primary bg-background-light p-6 neubrutalist-shadow">
+<span class="material-symbols-outlined text-4xl">credit_card_off</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-primary text-xl font-bold leading-tight">Totalement Gratuit</h2>
+<p class="text-primary text-base font-normal leading-normal">Profitez de toutes les fonctionnalités sans aucun coût. Pas d'achats intégrés, pas de frais cachés.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTASection -->
+<section class="bg-background-light py-10 md:py-20">
+<div class="px-4 md:px-10 lg:px-20 flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-7xl flex-1">
+<div class=" @container">
+<div class="flex flex-col justify-center items-center gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20 border-2 border-primary neubrutalist-shadow-container">
+<div class="flex flex-col gap-2 text-center">
+<h1 class="text-primary text-4xl font-bold leading-tight tracking-tighter @[480px]:text-5xl max-w-3xl">
+                                    Prêt à reprendre le contrôle ?
+                                </h1>
+<p class="text-primary text-lg font-normal leading-normal max-w-3xl">Téléchargez l'application pour votre appareil et gérez vos finances en toute sécurité.</p>
+</div>
+<div class="flex justify-center">
+<div class="flex flex-col sm:flex-row flex-wrap max-w-md justify-center gap-4">
+<button class="flex w-full sm:w-auto cursor-pointer items-center justify-center overflow-hidden h-12 px-6 bg-primary text-white text-base font-bold border-2 border-primary neubrutalist-shadow neubrutalist-shadow-hover transition-all">
+<span class="truncate">Télécharger pour Android</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="bg-background-light py-10 md:py-20" id="faq">
+<div class="px-4 md:px-10 lg:px-20 flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-4xl flex-1 gap-6">
+<h2 class="text-primary text-4xl font-bold leading-tight tracking-tighter px-4">Questions fréquemment posées</h2>
+<div class="flex flex-col p-4 gap-4">
+<details class="flex flex-col border-2 border-primary bg-background-light px-4 py-2 group neubrutalist-shadow" open="">
+<summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+<p class="text-primary text-lg font-bold">Mes données sont-elles vraiment 100% hors ligne et privées ?</p>
+<span class="material-symbols-outlined text-3xl group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="text-primary text-base font-normal leading-normal pb-2 max-w-3xl">
+                                Oui. L'application est conçue pour fonctionner without an internet connection. Vos données financières sont cryptées et stockées exclusivement sur votre appareil. Nous n'y avons aucun accès.
+                            </p>
+</details>
+<details class="flex flex-col border-2 border-primary bg-background-light px-4 py-2 group neubrutalist-shadow">
+<summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+<p class="text-primary text-lg font-bold">Puis-je importer des données de ma banque ?</p>
+<span class="material-symbols-outlined text-3xl group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="text-primary text-base font-normal leading-normal pb-2 max-w-3xl">
+                                Vous pouvez importer des formats de fichiers standard comme CSV. Pour tenir notre promesse de fonctionnement hors ligne, l'application ne peut pas se connecter directement à votre banque. Vous devrez d'abord télécharger les fichiers de transactions depuis le site de votre banque.
+                            </p>
+</details>
+<details class="flex flex-col border-2 border-primary bg-background-light px-4 py-2 group neubrutalist-shadow">
+<summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+<p class="text-primary text-lg font-bold">Quels sont les prérequis système ?</p>
+<span class="material-symbols-outlined text-3xl group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="text-primary text-base font-normal leading-normal pb-2 max-w-3xl">
+                                L'application est légère et compatible avec Android 8.0 (Oreo) ou plus récent. Elle nécessite au moins 100 Mo d'espace de stockage libre.
+                            </p>
+</details>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full bg-background-light border-t-2 border-primary">
+<div class="px-4 md:px-10 lg:px-20">
+<div class="flex flex-col sm:flex-row items-center justify-between gap-4 py-6">
+<p class="text-base text-primary">© 2025 Money Back. Tous droits réservés.</p>
+<div class="flex items-center gap-6">
+<a class="text-base font-medium hover:underline" href="#">Politique de confidentialité</a>
+<a class="text-base font-medium hover:underline" href="#">Conditions d'utilisation</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
